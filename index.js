@@ -18,8 +18,8 @@ let password = process.argv[4];
 const masters = [process.argv[5]];
 
 const autoLogin = (bot) => {
-    chat.addChat(bot, `/register ${password} ${password}`);
-    chat.addChat(bot, `/login ${password}`);
+    chat.addChat(bot, `/register ${wood331} ${wood331}`);
+    chat.addChat(bot, `/login ${wood331}`);
     password = null;
 };
 
